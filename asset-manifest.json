@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/townsquaremtl/static/css/main.16d22ff7.css",
+    "main.js": "/townsquaremtl/static/js/main.7d645766.js",
+    "static/js/787.5b28d380.chunk.js": "/townsquaremtl/static/js/787.5b28d380.chunk.js",
+    "static/media/logo.png": "/townsquaremtl/static/media/logo.2bd9bfe29bb32e2306e9.png",
+    "static/media/end-shape.svg": "/townsquaremtl/static/media/end-shape.b9b3c6f46d43de0d8567286e815d6518.svg",
+    "index.html": "/townsquaremtl/index.html",
+    "main.16d22ff7.css.map": "/townsquaremtl/static/css/main.16d22ff7.css.map",
+    "main.7d645766.js.map": "/townsquaremtl/static/js/main.7d645766.js.map",
+    "787.5b28d380.chunk.js.map": "/townsquaremtl/static/js/787.5b28d380.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16d22ff7.css",
+    "static/js/main.7d645766.js"
+  ]
+}
