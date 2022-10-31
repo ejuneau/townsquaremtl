@@ -1,0 +1,86 @@
+/* breakpoint at width= 464px (socials clip through right edge)*/
+
+header {
+    height: 6.4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-alignment {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    min-width: 45%;
+    max-width: 80%;
+    align-self: center;
+}
+
+.header-logo {
+    width: 10em;
+}
+
+ .header-spacer {
+    min-width: 4em;
+}
+
+/* .header-spacer-center {
+    flex-grow: 1;
+    flex-shrink: 0;
+    height: inherit;
+    min-width: 10em;
+}  */
+
+.header-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.header-nav-socials {
+    display: flex;
+}
+
+.header-nav-socials-facebook, .header-nav-socials-twitter, .header-nav-socials-instagram {
+    margin: 0.5em 0.5em;
+    display:inline-block;
+    border-radius: 50%;
+    height: 1.8em;
+    width: 1.8em;
+    box-shadow: 0 0 5px grey;
+}
+
+
+.svg-inline--fa {
+    height: 20px;
+    width: 20px;
+}
+
+.facebook-icon, .twitter-icon, .instagram-icon {
+    color: grey;
+    background-color: white;
+    transform: scale(0.8) translateX(0.34em) translateY(0.33em); 
+    
+}
+
+
+.header-nav-socials-facebook:hover, .header-nav-socials-facebook:hover .facebook-icon {
+    background-color: #1877F2;
+    color: white ;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.header-nav-socials-twitter:hover, .header-nav-socials-twitter:hover .twitter-icon {
+    background-color: #1DA1F2;
+    color: white ;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+.header-nav-socials-instagram:hover, .header-nav-socials-instagram:hover .instagram-icon {
+    background-color: #833AB4;
+    color: white ;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.search{
+    transform: translateX(-0.8em);
+}
